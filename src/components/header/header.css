@@ -1,0 +1,83 @@
+header{
+    height: 100vh;
+    padding-top: 1rem;
+    overflow: hidden;
+    
+}
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/** CTA **/
+
+.cta{
+    text-align: center;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/** HeaderSocial **/
+
+.header-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    left: 0px;
+    bottom: 3rem;
+}
+
+.header-social::after{
+    content: "";
+    width: 1px;
+    height: 1rem;
+    background-color: var(--color-primary);
+}
+
+/** Profile Image **/
+.profile-pic{
+    background: linear-gradient(var(--color-primary), transparent ) ;
+    width: 22rem;
+    height: 27rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/** Scroll Down **/
+
+.scroll_down{
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 4rem;
+    right: 0px;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* Responsive*/
+/* Medium Device*/
+@media screen and (max-width: 1024px) {
+    header{
+        height: 68vh;
+    }
+}
+
+/*Small Device*/
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+    .header-social, .scroll_down{
+        display: none;
+    }
+}
