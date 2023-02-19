@@ -25,8 +25,8 @@ export default function Contact() {
           <article className="contact_option">
             <MdOutlineMail className="contact_option_icon"/>
             <h4>Email</h4>
-            <h5>dummyemail@gmail.com</h5>
-            <a href="mailto:dummyemail@gmail.com" target="_blank" rel="noopener noreferrer">Send an email</a>
+            <h5>debabratapauljnv@gmail.com</h5>
+            <a href="mailto:debabratapauljnv@gmail.com" target="_blank" rel="noopener noreferrer">Send an email</a>
           </article>
 
           <article className="contact_option">

@@ -1,44 +1,37 @@
-import IMG1 from '../../assets/portfolio-1.jpg'
-import IMG2 from '../../assets/portfolio-2.jpg'
-import IMG3 from '../../assets/portfolio-3.jpg'
-import IMG4 from '../../assets/portfolio-4.jpg'
-import IMG5 from '../../assets/portfolio-5.jpg'
+import IMG1 from '../../assets/portfolio-1.png'
+import IMG2 from '../../assets/portfolio-2.png'
+import IMG3 from '../../assets/portfolio-3.png'
+import IMG4 from '../../assets/portfolio-4.png'
+
 
 const portfolio = [
     {
-        id:2,
+        id:1,
         image: IMG1,
-        title: 'Title 1 for the first project',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'Weather app',
+        github: 'https://github.com/Debabrata-Paul-IN/weather-app',
+        demo: 'https://weatherapp.debabratapaul.com/'
     },
     {
         id:2,
         image: IMG2,
-        title: 'Title 2 for the first project',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'Online Pizza',
+        github: 'https://github.com/Debabrata-Paul-IN/order-pizza',
+        demo: 'https://onlinepizza.debabratapaul.com/'
     },
     {
-        id:2,
+        id:3,
         image: IMG3,
-        title: 'Title 3 for the first project',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'Smart Home Device',
+        github: 'https://github.com/Debabrata-Paul-IN/smart-home',
+        demo: 'https://smarthome.debabratapaul.com/'
     },
     {
-        id:2,
+        id:4,
         image: IMG4,
-        title: 'Title 4 for the first project',
-        github: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id:2,
-        image: IMG5,
-        title: 'Title 5 for the first project',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'Portfolio Website',
+        github: 'https://github.com/Debabrata-Paul-IN/portfolio-website',
+        demo: 'https://debabratapaul.com'
     },
 ]
 
