@@ -2,6 +2,7 @@ import {AiFillHtml5} from 'react-icons/ai'
 import {DiCss3Full,DiReact} from 'react-icons/di'
 import {IoLogoJavascript} from 'react-icons/io'
 import {BsBootstrap} from 'react-icons/bs'
+import {SiRedux} from 'react-icons/si'
 
 const items = [{
     id: 1,
@@ -25,13 +26,20 @@ const items = [{
     id: 4,
     icon:<DiReact/>,
     skill: 'REACT',
-    percentage: '57%'
+    percentage: '65%'
 },
 {
     id: 5,
     icon:<BsBootstrap/>,
     skill: 'BOOTSTRAP',
     percentage: '75%'
-}];
+},
+{
+    id: 6,
+    icon:<SiRedux/>,
+    skill: 'Redux / Redux-Toolkit',
+    percentage: '62%'
+}
+];
 
 export default items;

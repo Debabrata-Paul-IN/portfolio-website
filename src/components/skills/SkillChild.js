@@ -8,7 +8,7 @@ export default function SkillChild(props) {
             const newStyle = {
                 width: props.percentage
             }
-            console.log(newStyle);
+            //console.log(newStyle);
             setStyle(newStyle)
         },900)
     },[props.percentage])

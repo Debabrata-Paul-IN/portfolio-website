@@ -36,7 +36,10 @@
     fill: rgb(176, 216, 253);
 }
 .skill-container:nth-child(5) span svg{
-    fill: rgb(126, 23, 223);
+    fill: rgb(142, 73, 206);
+}
+.skill-container:nth-child(6) span svg{
+    fill: rgb(104, 13, 189);
 }
 
 .bar{
